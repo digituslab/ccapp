@@ -1,0 +1,536 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		50AB66B42025E7F10026FAB7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 50AB66B32025E7F10026FAB7 /* AppDelegate.m */; };
+		50AB66B62025E7F10026FAB7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 50AB66B52025E7F10026FAB7 /* Assets.xcassets */; };
+		50AB66B92025E7F10026FAB7 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 50AB66B72025E7F10026FAB7 /* MainMenu.xib */; };
+		50AB66BC2025E7F10026FAB7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 50AB66BB2025E7F10026FAB7 /* main.m */; };
+		50AB66C72025E7F10026FAB7 /* ccappTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 50AB66C62025E7F10026FAB7 /* ccappTests.m */; };
+		50AB66D22025E7F10026FAB7 /* ccappUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 50AB66D12025E7F10026FAB7 /* ccappUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		50AB66C32025E7F10026FAB7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 50AB66A72025E7F10026FAB7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 50AB66AE2025E7F10026FAB7;
+			remoteInfo = ccapp;
+		};
+		50AB66CE2025E7F10026FAB7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 50AB66A72025E7F10026FAB7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 50AB66AE2025E7F10026FAB7;
+			remoteInfo = ccapp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		50AB66AF2025E7F10026FAB7 /* ccapp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ccapp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		50AB66B22025E7F10026FAB7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		50AB66B32025E7F10026FAB7 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		50AB66B52025E7F10026FAB7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		50AB66B82025E7F10026FAB7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		50AB66BA2025E7F10026FAB7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		50AB66BB2025E7F10026FAB7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		50AB66BD2025E7F10026FAB7 /* ccapp.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = ccapp.entitlements; sourceTree = "<group>"; };
+		50AB66C22025E7F10026FAB7 /* ccappTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ccappTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		50AB66C62025E7F10026FAB7 /* ccappTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ccappTests.m; sourceTree = "<group>"; };
+		50AB66C82025E7F10026FAB7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		50AB66CD2025E7F10026FAB7 /* ccappUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ccappUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		50AB66D12025E7F10026FAB7 /* ccappUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ccappUITests.m; sourceTree = "<group>"; };
+		50AB66D32025E7F10026FAB7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		50AB66AC2025E7F10026FAB7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		50AB66BF2025E7F10026FAB7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		50AB66CA2025E7F10026FAB7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		50AB66A62025E7F10026FAB7 = {
+			isa = PBXGroup;
+			children = (
+				50AB66B12025E7F10026FAB7 /* ccapp */,
+				50AB66C52025E7F10026FAB7 /* ccappTests */,
+				50AB66D02025E7F10026FAB7 /* ccappUITests */,
+				50AB66B02025E7F10026FAB7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		50AB66B02025E7F10026FAB7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				50AB66AF2025E7F10026FAB7 /* ccapp.app */,
+				50AB66C22025E7F10026FAB7 /* ccappTests.xctest */,
+				50AB66CD2025E7F10026FAB7 /* ccappUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		50AB66B12025E7F10026FAB7 /* ccapp */ = {
+			isa = PBXGroup;
+			children = (
+				50AB66B22025E7F10026FAB7 /* AppDelegate.h */,
+				50AB66B32025E7F10026FAB7 /* AppDelegate.m */,
+				50AB66B52025E7F10026FAB7 /* Assets.xcassets */,
+				50AB66B72025E7F10026FAB7 /* MainMenu.xib */,
+				50AB66BA2025E7F10026FAB7 /* Info.plist */,
+				50AB66BB2025E7F10026FAB7 /* main.m */,
+				50AB66BD2025E7F10026FAB7 /* ccapp.entitlements */,
+			);
+			path = ccapp;
+			sourceTree = "<group>";
+		};
+		50AB66C52025E7F10026FAB7 /* ccappTests */ = {
+			isa = PBXGroup;
+			children = (
+				50AB66C62025E7F10026FAB7 /* ccappTests.m */,
+				50AB66C82025E7F10026FAB7 /* Info.plist */,
+			);
+			path = ccappTests;
+			sourceTree = "<group>";
+		};
+		50AB66D02025E7F10026FAB7 /* ccappUITests */ = {
+			isa = PBXGroup;
+			children = (
+				50AB66D12025E7F10026FAB7 /* ccappUITests.m */,
+				50AB66D32025E7F10026FAB7 /* Info.plist */,
+			);
+			path = ccappUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		50AB66AE2025E7F10026FAB7 /* ccapp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 50AB66D62025E7F10026FAB7 /* Build configuration list for PBXNativeTarget "ccapp" */;
+			buildPhases = (
+				50AB66AB2025E7F10026FAB7 /* Sources */,
+				50AB66AC2025E7F10026FAB7 /* Frameworks */,
+				50AB66AD2025E7F10026FAB7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ccapp;
+			productName = ccapp;
+			productReference = 50AB66AF2025E7F10026FAB7 /* ccapp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		50AB66C12025E7F10026FAB7 /* ccappTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 50AB66D92025E7F10026FAB7 /* Build configuration list for PBXNativeTarget "ccappTests" */;
+			buildPhases = (
+				50AB66BE2025E7F10026FAB7 /* Sources */,
+				50AB66BF2025E7F10026FAB7 /* Frameworks */,
+				50AB66C02025E7F10026FAB7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				50AB66C42025E7F10026FAB7 /* PBXTargetDependency */,
+			);
+			name = ccappTests;
+			productName = ccappTests;
+			productReference = 50AB66C22025E7F10026FAB7 /* ccappTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		50AB66CC2025E7F10026FAB7 /* ccappUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 50AB66DC2025E7F10026FAB7 /* Build configuration list for PBXNativeTarget "ccappUITests" */;
+			buildPhases = (
+				50AB66C92025E7F10026FAB7 /* Sources */,
+				50AB66CA2025E7F10026FAB7 /* Frameworks */,
+				50AB66CB2025E7F10026FAB7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				50AB66CF2025E7F10026FAB7 /* PBXTargetDependency */,
+			);
+			name = ccappUITests;
+			productName = ccappUITests;
+			productReference = 50AB66CD2025E7F10026FAB7 /* ccappUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		50AB66A72025E7F10026FAB7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "Yoshihisa Watabe";
+				TargetAttributes = {
+					50AB66AE2025E7F10026FAB7 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					50AB66C12025E7F10026FAB7 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 50AB66AE2025E7F10026FAB7;
+					};
+					50AB66CC2025E7F10026FAB7 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 50AB66AE2025E7F10026FAB7;
+					};
+				};
+			};
+			buildConfigurationList = 50AB66AA2025E7F10026FAB7 /* Build configuration list for PBXProject "ccapp" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 50AB66A62025E7F10026FAB7;
+			productRefGroup = 50AB66B02025E7F10026FAB7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				50AB66AE2025E7F10026FAB7 /* ccapp */,
+				50AB66C12025E7F10026FAB7 /* ccappTests */,
+				50AB66CC2025E7F10026FAB7 /* ccappUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		50AB66AD2025E7F10026FAB7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				50AB66B62025E7F10026FAB7 /* Assets.xcassets in Resources */,
+				50AB66B92025E7F10026FAB7 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		50AB66C02025E7F10026FAB7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		50AB66CB2025E7F10026FAB7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		50AB66AB2025E7F10026FAB7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				50AB66BC2025E7F10026FAB7 /* main.m in Sources */,
+				50AB66B42025E7F10026FAB7 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		50AB66BE2025E7F10026FAB7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				50AB66C72025E7F10026FAB7 /* ccappTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		50AB66C92025E7F10026FAB7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				50AB66D22025E7F10026FAB7 /* ccappUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		50AB66C42025E7F10026FAB7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 50AB66AE2025E7F10026FAB7 /* ccapp */;
+			targetProxy = 50AB66C32025E7F10026FAB7 /* PBXContainerItemProxy */;
+		};
+		50AB66CF2025E7F10026FAB7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 50AB66AE2025E7F10026FAB7 /* ccapp */;
+			targetProxy = 50AB66CE2025E7F10026FAB7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		50AB66B72025E7F10026FAB7 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				50AB66B82025E7F10026FAB7 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		50AB66D42025E7F10026FAB7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		50AB66D52025E7F10026FAB7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		50AB66D72025E7F10026FAB7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = ccapp/ccapp.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = ccapp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = digituslab.ccapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		50AB66D82025E7F10026FAB7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = ccapp/ccapp.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = ccapp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = digituslab.ccapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		50AB66DA2025E7F10026FAB7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = ccappTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = digituslab.ccappTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ccapp.app/Contents/MacOS/ccapp";
+			};
+			name = Debug;
+		};
+		50AB66DB2025E7F10026FAB7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = ccappTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = digituslab.ccappTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ccapp.app/Contents/MacOS/ccapp";
+			};
+			name = Release;
+		};
+		50AB66DD2025E7F10026FAB7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = ccappUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = digituslab.ccappUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ccapp;
+			};
+			name = Debug;
+		};
+		50AB66DE2025E7F10026FAB7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = ccappUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = digituslab.ccappUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ccapp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		50AB66AA2025E7F10026FAB7 /* Build configuration list for PBXProject "ccapp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				50AB66D42025E7F10026FAB7 /* Debug */,
+				50AB66D52025E7F10026FAB7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		50AB66D62025E7F10026FAB7 /* Build configuration list for PBXNativeTarget "ccapp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				50AB66D72025E7F10026FAB7 /* Debug */,
+				50AB66D82025E7F10026FAB7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		50AB66D92025E7F10026FAB7 /* Build configuration list for PBXNativeTarget "ccappTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				50AB66DA2025E7F10026FAB7 /* Debug */,
+				50AB66DB2025E7F10026FAB7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		50AB66DC2025E7F10026FAB7 /* Build configuration list for PBXNativeTarget "ccappUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				50AB66DD2025E7F10026FAB7 /* Debug */,
+				50AB66DE2025E7F10026FAB7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 50AB66A72025E7F10026FAB7 /* Project object */;
+}
