@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5041774A2028860B007050CA /* MainWndCtrl.m in Sources */ = {isa = PBXBuildFile; fileRef = 504177492028860B007050CA /* MainWndCtrl.m */; };
 		50AB66B42025E7F10026FAB7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 50AB66B32025E7F10026FAB7 /* AppDelegate.m */; };
 		50AB66B62025E7F10026FAB7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 50AB66B52025E7F10026FAB7 /* Assets.xcassets */; };
 		50AB66B92025E7F10026FAB7 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 50AB66B72025E7F10026FAB7 /* MainMenu.xib */; };
@@ -33,6 +34,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		504177482028860B007050CA /* MainWndCtrl.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MainWndCtrl.h; sourceTree = "<group>"; };
+		504177492028860B007050CA /* MainWndCtrl.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MainWndCtrl.m; sourceTree = "<group>"; };
 		50AB66AF2025E7F10026FAB7 /* ccapp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ccapp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		50AB66B22025E7F10026FAB7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		50AB66B32025E7F10026FAB7 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -101,6 +104,8 @@
 				50AB66B32025E7F10026FAB7 /* AppDelegate.m */,
 				50AB66B52025E7F10026FAB7 /* Assets.xcassets */,
 				50AB66B72025E7F10026FAB7 /* MainMenu.xib */,
+				504177482028860B007050CA /* MainWndCtrl.h */,
+				504177492028860B007050CA /* MainWndCtrl.m */,
 				50AB66BA2025E7F10026FAB7 /* Info.plist */,
 				50AB66BB2025E7F10026FAB7 /* main.m */,
 				50AB66BD2025E7F10026FAB7 /* ccapp.entitlements */,
@@ -259,6 +264,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				50AB66BC2025E7F10026FAB7 /* main.m in Sources */,
+				5041774A2028860B007050CA /* MainWndCtrl.m in Sources */,
 				50AB66B42025E7F10026FAB7 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

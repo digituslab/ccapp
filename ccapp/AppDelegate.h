@@ -7,8 +7,10 @@
 //
 
 #import <Cocoa/Cocoa.h>
+#import "MainWndCtrl.h"
 
 @interface AppDelegate : NSObject <NSApplicationDelegate>
+    @property (weak) IBOutlet MainWndCtrl *wndctrl;
 
 
 @end
